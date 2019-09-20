@@ -1,0 +1,13 @@
+.title {
+    color:red ;
+    text-align: center;
+    font-weight: 100;
+
+}
+
+:global(.test){
+    font-style:italic;
+    font-size: 50px
+}
+
+
