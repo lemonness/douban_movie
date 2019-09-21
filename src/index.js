@@ -1,16 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import BindEventValue from '@/components/BindEventValue'
+import App from '@/App'
+import 'antd/dist/antd.css'
 
 
 
 
 
-ReactDOM.render(
-    <div>
-        <BindEventValue/>
-    </div>
-    ,document.getElementById('app')
-)
+
+ReactDOM.render(<App></App>,document.getElementById('app'))
 
 

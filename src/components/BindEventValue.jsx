@@ -7,7 +7,7 @@ export default class BindEvent extends React.Component{
     constructor(){
         super()
         this.state={
-            msg:'哈哈'
+            msg:'??'
 
         }
     }
@@ -15,7 +15,7 @@ export default class BindEvent extends React.Component{
    render(){
        return <div>
            <h3>{this.state.msg}</h3>
-           <button onClick={()=>this.show('🐷','❄')}> 这是一个按钮</button>
+           <button onClick={()=>this.show('??','???')}>123</button>
            <div></div>
            <input type="text" style={{width:'100%'}} value={this.state.msg} onChange={
                (e)=>this.txtChange(e)
