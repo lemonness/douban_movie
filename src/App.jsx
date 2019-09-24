@@ -8,6 +8,8 @@ import Home from '@/components/Home/HomeContainer'
 import Movie from '@/components/Movie/MovieContainer'
 
 
+
+
 export default class App extends React.Component {
     constructor(props) {
         super(props)
@@ -15,6 +17,7 @@ export default class App extends React.Component {
 
  
     render() {
+
         return <HashRouter>
             <Layout className="layout" style={{height:'100%'}}>
                 <Header>
@@ -28,8 +31,8 @@ export default class App extends React.Component {
                         <Menu.Item key="home">
                         <Link to="/home">首页</Link>
                         </Menu.Item>
-                        <Menu.Item key="movie">
-                        <Link to="/movie">电影</Link>
+                        <Menu.Item key="movie" >
+                        <Link to="/movie" >电影</Link>
                         </Menu.Item>
                         <Menu.Item key="about">
                         <Link to="/about">关于</Link>

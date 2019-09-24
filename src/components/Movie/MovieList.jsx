@@ -96,8 +96,8 @@ export default class MovieList extends Component {
                     }
                     )}
                 </div>
-                <Pagination defaultCurrent={this.state.nowPages}
-                pageSize={this.state.pageSize}
+
+                <Pagination defaultCurrent={this.state.nowPages}  pageSize={this.state.pageSize}
                 total={this.state.total} onChange={this.pageChanged} />
             </div>
         }

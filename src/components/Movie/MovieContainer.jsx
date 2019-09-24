@@ -15,7 +15,7 @@ export default class Movie extends Component {
             <Sider width={200} style={{ background: '#fff' }}>
                 <Menu
                     mode="inline"
-                    defaultSelectedKeys={[window.location.hash.split('/')[2]]}
+                    defaultSelectedKeys={[window.location.hash.split('/')[2]?window.location.hash.split('/')[2]:"in_theaters"]}
                     style={{ height: '100%', borderRight: 0 }}
                 >
 
@@ -41,7 +41,7 @@ export default class Movie extends Component {
                     }}
                 >
                     <Switch>
-                    <Route path='/movie/detail/:id' component={MovieDetails}></Route>
+                    <Route path='/movie/detail/:id' component={MovieDetails} default></Route>
                     <Route path='/movie/:type/:page' component={MovieList}></Route>
                     </Switch>
                     

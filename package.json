@@ -1,7 +1,7 @@
 {
   "name": "thefirst",
   "version": "1.0.0",
-  "homepage":"https://lemonness.github.io/douban_movie/",
+  "homepage":"http://lemonness.gitee.io/douban_movie",
   "description": "",
   "main": "index.js",
   "scripts": {
