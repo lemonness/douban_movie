@@ -7,7 +7,7 @@ const htmlPlugin = new HtmlWebPackPlugin({
 
 })
 module.exports = {
-    mode: 'development',
+    mode: 'production',
     plugins: [
         htmlPlugin
     ],
